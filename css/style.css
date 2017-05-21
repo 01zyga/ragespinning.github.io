@@ -1,0 +1,125 @@
+body {
+  background: #010A13;
+}
+
+#player {
+    object-fit: inherit;
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.madeBy {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  margin-bottom: 69px;
+  text-align: center;
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 9px;
+  letter-spacing: 2px;
+}
+
+.button {
+  font-size: 60px;
+  font-family: 'Rajdhani', sans-serif;
+  text-align: center;
+  line-height: 85px;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 150px;
+  width: 350px;
+  height: 85px;
+  background: linear-gradient(#1d7751, #0e382c);
+  border: 3px #25793b solid; 
+  border-radius: 5px;
+  text-shadow: 0 0 20px rgba(255,255,255,0.3);
+  transition: .1s;
+  transform: scale(1);
+  cursor: pointer;
+  -webkit-user-select: none;
+  box-shadow: 0 0 50px rgba(0,117,9,0.5);
+  overflow: hidden;
+}
+
+.button:hover {
+  text-shadow: 0 0 20px rgba(255,255,255,0.5);
+  transform: scale(1.05);
+}
+
+.button:active {
+  background: linear-gradient(#1f8258, #114435);
+  text-shadow: 0 0 20px rgba(255,255,255,0.5);
+  transform: scale(1);
+  box-shadow: 0 0 75px rgba(43,137,68,0.5);
+}
+
+.button:after {
+  content: "";
+  position: relative;
+  top: -120px;
+  left: -90px;
+  display: block;
+  width: 35px;
+  height: 150px;
+  background: rgba(255, 255, 255, 0.5);
+  transform: rotate(35deg);
+  -webkit-filter: blur(20px);
+  transition: none;
+}
+
+.button:hover:after {
+  left: 400px;
+  transition: .3s ease-in-out;
+}
+
+body {
+  font-size: 20px;
+  font-family: 'Rajdhani', sans-serif;
+  background: #010A13;
+}
+
+.madeBy {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  margin-bottom: 69px;
+  text-align: center;
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 9px;
+  letter-spacing: 2px;
+}
+
+/*//////////////////////////////////////////////////////*/
+
+a {
+  text-decoration: none;
+}
+
+
+.wallbang.true {
+  margin: -375px 0px 0px 100px;
+  height: 480px;
+  width: 270px;
+  background: url(http://i.imgur.com/L9CdpWk.gif);
+  background-size: cover;
+  float: left;
+}
+.headshot.true {
+  margin: -400px 0px 0px 100px;
+  height: 620px;
+  width: 381px;
+  background-image: url(http://i.imgur.com/g4Gxdli.gif);
+  background-size: cover;
+  float: right;
